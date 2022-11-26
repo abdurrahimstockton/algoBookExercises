@@ -9,6 +9,10 @@ class Link(object):  # One datum in a linked list
         return self.__next is None  # True if & only if no next Link
 
 
+
+
+
+
 class LinkedList(object):  # A linked list of data elements
     def __init__(self):  # Constructor
         self.__first = None  # Reference to first link
